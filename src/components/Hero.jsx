@@ -4,6 +4,11 @@ import { RxCaretRight } from "react-icons/rx";
 import { smoothScrollTo } from "./Navbar";
 
 function Hero() {
+  // Fungsi untuk mengarahkan ke tautan WhatsApp
+  const redirectToWhatsApp = () => {
+    window.open("https://wa.me/6285100811818", "_blank");
+  };
+  
   return (
     <div
       className="w-full relative bg-cover bg-center"
@@ -30,7 +35,10 @@ function Hero() {
               <button className="btn-main btn-bs flex items-center gap-1.5 hover:gap-2" onClick={() => smoothScrollTo('About')}>
                 Learn more <RxCaretRight className="text-2xl leading-[0px]" />{" "}
               </button>
-              <button className="text-white/80 underline underline-offset-4 transition duration-300 hover:text-white/90">
+              <button
+                className="text-white/80 underline underline-offset-4 transition duration-300 hover:text-white/90"
+                onClick={redirectToWhatsApp}
+              >
                 Contact us
               </button>
             </div>
