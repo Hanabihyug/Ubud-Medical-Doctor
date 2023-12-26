@@ -50,7 +50,7 @@ function Footer() {
       </Container>
       <div className="flex justify-center border-t-[1px] border-black/30 py-4 mt-14">
         <p className="text-center text-black/60">
-          &#169; 2023 Logo. All rights reserved. | Powered by DevEureka
+          &#169; 2023 UMD. All rights reserved. | Powered by DevEureka
         </p>
       </div>
     </div>
