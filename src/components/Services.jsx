@@ -32,11 +32,9 @@ function Services() {
                 <div className='sm:w-1/2'>
                     <h1 className='text-xl font-bold max-sm:mt-8'>Medical and Related Services</h1>
                     <ul className='w-full flex flex-col gap-2.5 mt-4'>
-                        <li className='flex items-center gap-2'><RxCheck className='bg-main-600 p-[2px] text-white text-2xl rounded-full'/>Profesional Babysitter</li>
                         <li className='flex items-center gap-2'><RxCheck className='bg-main-600 p-[2px] text-white text-2xl rounded-full'/>Medical Service for Corporate</li>
                         <li className='flex items-center gap-2'><RxCheck className='bg-main-600 p-[2px] text-white text-2xl rounded-full'/>Medical Service for Event</li>
                         <li className='flex items-center gap-2'><RxCheck className='bg-main-600 p-[2px] text-white text-2xl rounded-full'/>First Aid Training</li>
-                        <li className='flex items-center gap-2'><RxCheck className='bg-main-600 p-[2px] text-white text-2xl rounded-full'/>Insurance Training</li>
                     </ul>
                 </div>
                 <div className='h-[300px] xl:h-[400px] bg-cover md:bg-center rounded-3xl sm:w-1/2' style={{backgroundImage: `url(${process.env.PUBLIC_URL + 'service-2.jpeg'})`}}></div>

@@ -2,11 +2,8 @@ import React from 'react';
 import Container from './Container';
 
 function Contact() {
-  // Nomor WhatsApp yang akan dihubungi
-  const whatsappNumber = '6285100811818'; // Ganti dengan nomor WhatsApp yang sesuai
-
   // Membuat tautan ke WhatsApp
-  const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  const whatsappLink = `https://wa.me/6285100811818?text=Hello%20Ubud%20Medical%20Assistance%2C%20I%20need%20Help%20For%20(Please%20tell%20us%20your%20problem)`;
 
   return (
     <div className='bg-cover bg-center relative' style={{backgroundImage: `url(${process.env.PUBLIC_URL + 'hero.jpeg'})`}}>

@@ -36,7 +36,7 @@ function About() {
             </div>
             <button className={`${isTruncate ? 'btn-main' : 'btn-nd'} btn-sm`} onClick={() => setIsTruncate(!isTruncate)}>{isTruncate ? 'Show more' : 'Show less'}</button>
           </div>
-          <div className="max-md:w-full w-1/2 max-md:h-[300px] h-[400px] bg-cover bg-center bg-slate-600 rounded-3xl" style={{backgroundImage: `url(${process.env.PUBLIC_URL + './about-sect.jpeg'})`}}></div>
+          <div className="max-md:w-full w-1/2 max-md:h-[300px] h-[400px] bg-cover bg-center bg-slate-600 rounded-3xl" style={{backgroundImage: `url(${process.env.PUBLIC_URL + './about-sect.jpg'})`}}></div>
         </div>
       </Container>
     </div>

@@ -42,7 +42,7 @@ function Navbar() {
                 <li className={`${scrolled ? 'max-md:text-black/80' : 'text-white/80'} max-md:w-full max-md:hover:bg-white/10 max-md:pl-8 max-md:py-4 hover:text-main-300 transition duration-300 cursor-pointer`} onClick={() => smoothScrollTo('Testimoni')}>Testimonial</li>
                 <li className='max-md:w-full max-md:pl-8 max-md:py-4'>
             <a
-              href="https://wa.me/6285100811818"
+              href="https://wa.me/6285100811818?text=Hello%20Ubud%20Medical%20Doctor%2C%20I%20need%20Help%20For%20(Please%20tell%20us%20your%20problem)"
               className='btn-main btn-sm'
               target="_blank"
               rel="noopener noreferrer"

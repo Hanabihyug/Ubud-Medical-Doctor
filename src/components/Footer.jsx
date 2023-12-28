@@ -6,7 +6,7 @@ import { smoothScrollTo } from "./Navbar";
 
 function Footer() {
   const instagramUrl = "https://www.instagram.com/ubudmedicaldoc/";
-  const whatsappUrl = "https://wa.me/6285100811818";
+  const whatsappUrl = "https://wa.me/6285100811818?text=Hello%20Ubud%20Medical%20Doctor%2C%20I%20need%20Help%20For%20(Please%20tell%20us%20your%20problem)";
   const emailUrl = "mailto:ubud.medical@gmail.com";
   return (
     <div className="pt-28">
@@ -34,7 +34,7 @@ function Footer() {
             </div>
           </div>
           <div className="md:w-1/3 md:pr-4 flex flex-col max-md:items-center max-md:mt-16">
-            <h1 className="text-2xl font-bold mb-4">COMPANY</h1>
+            <h1 className="text-2xl font-bold mb-4">PAGE</h1>
             <p className="text-lg mb-2 text-black/60" onClick={() => smoothScrollTo('Home')}>Home</p>
             <p className="text-lg mb-2 text-black/60" onClick={() => smoothScrollTo('About')}>About Us</p>
             <p className="text-lg mb-2 text-black/60" onClick={() => smoothScrollTo('Services')}>Services</p>
