@@ -3,22 +3,38 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 function Testimonials() {
   const data = [
-    {testi:   
-"Warmth, competence, and a commitment to patient well-being this clinic has it all.",
+    {
+      nama: "Rebecca Jane",
+      work: "27 Years Old",
+      foto: "https://media.istockphoto.com/id/1461338170/video/head-shot-of-pretty-middle-aged-45s-woman-posing-at-home.jpg?s=640x640&k=20&c=S-0lsAbNASkay4PSNje-rRQhlBL6fvxYtv404lnPSQA=",
+      testi: "Warmth, competence, and a commitment to patient well-being—this clinic has it all.",
     },
-    {testi:   
-      "An excellent blend of expertise and compassion. Highly recommended for quality care.",
-          },
-          {testi:   
-            "Outstanding care! The staff's expertise and warmth made my experience truly remarkable.",
-                },
-                {testi:   
-                  "Efficient, friendly, and caring—a winning combination for a healthcare provider.",
-                      },
-                      {testi:   
-                        "An amazing team dedicated to providing exceptional care. I couldn't be happier with my experience.",
-                            },
+    {
+      nama: "Billy Smith",
+      work: "36 Years Old",
+      foto: "https://media.istockphoto.com/id/1371914516/video/confident-professional-with-arms-crossed-in-office.jpg?s=640x640&k=20&c=xA1u-CilB9ezMLo8eziJmixffXL8R-kklMZZ4MGghY4=",
+      testi: "An excellent blend of expertise and compassion. Highly recommended for quality care.",
+    },
+    {
+      nama: "Michael Johnson",
+      work: "25 years Old",
+      foto: "https://as1.ftcdn.net/v2/jpg/02/94/23/24/1000_F_294232439_2w60C9ls1pmuy3R3qMqTNdpdDXO2y5zr.jpg",
+      testi: "Outstanding care! The staff's expertise and warmth made my experience truly remarkable.",
+    },
+    {
+      nama: "Emily Davis",
+      work: "20 Years Old",
+      foto: "https://img.freepik.com/premium-photo/pretty-joyful-casual-student-girl-with-laptop-happily-looking-camera-colorful-background-outdoor_574295-921.jpg",
+      testi: "Efficient, friendly, and caring—a winning combination for a healthcare provider.",
+    },
+    {
+      nama: "John Miller",
+      work: "29 Years Old",
+      foto: "https://img.freepik.com/free-photo/stylish-indian-young-man-sunglasses-wear-casual-posed-outdoor_627829-1783.jpg?w=1060&t=st=1703939842~exp=1703940442~hmac=a966333b817d8604f732e414ad33ca79d9da46d4b9d41a5a1c58fe327b7613a1",
+      testi: "An amazing team dedicated to providing exceptional care. I couldn't be happier with my experience.",
+    },
   ];
+
 
   const [currIdx, setCurrIdx] = useState(0);
 
@@ -58,6 +74,14 @@ function Testimonials() {
               >
                 <div className="p-8 h-full bg-gradient-to-tr from-main-800 to-main-500 text-white rounded-3xl flex flex-col items-center justify-between">
                   <div className="flex flex-col items-center">
+                  <div
+                      className="w-24 h-24 rounded-full bg-cover bg-center"
+                      style={{
+                        backgroundImage: `url(${
+                          process.env.PUBLIC_URL + data.foto
+                        })`,
+                      }}
+                    ></div>
                     <p className="text-lg font-medium my-4 mx-auto max-w-[auto] text-center">
                       "{data.testi}"
                     </p>
