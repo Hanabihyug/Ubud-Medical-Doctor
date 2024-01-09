@@ -39,7 +39,7 @@ function Testimonials() {
   const [currIdx, setCurrIdx] = useState(0);
 
   return (
-    <div className="py-28 bg-main-100" id="Testimoni">
+    <div className="py-28 bg-main-200" id="Testimoni">
       <div className="w-11/12 2xl:w-[1440px] mx-auto">
         <div className="flex flex-col items-center mb-12">
           <h1 className=" text-3xl font-bold text-main-800 text-center">
